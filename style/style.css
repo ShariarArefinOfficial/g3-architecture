@@ -15,11 +15,36 @@ Developer Name :MD.SHARIAR AREFIN
     font-family: 'Merriweather', serif;
     font-family: 'Work Sans', sans-serif;
 }
+.btn-primary{
+  color: #FFF;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 21px 25px;
+  border-radius: 8px;
+  background: #FF900E;
+}
 
 
 
 /************* Global CSS End*************/
 /************* Header CSS Start*************/
+.header{
+  background: rgba(255, 144, 14, 0.10);
+  padding:63px 240px;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav>ul{
+  display: flex;
+}
+nav>ul>li{
+  list-style: none;
+  margin-right: 30px;
+}
 
 
 
