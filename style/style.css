@@ -76,17 +76,44 @@ margin: 0 auto;
   font-weight: 400;
   line-height: 26px; /* 162.5% */
 }
-.hero{
-  background: rgba(255, 144, 14, 0.10);
-  
-}
+
 
 
 
 /************* Header CSS End*************/
 /************* Main CSS Start*************/
 
+main{
+  max-width:1440px;
+  margin: 0 auto;
+}
+/*teams*/
+.team{
+  padding:85px 0;
+}
+.teams-container{
+  display: flex;
+  align-items: center;
+  gap:4.75rem;
+}
+.teams-title{
+  color:  #727272;
+  font-size: 2.8rem;
+  font-weight: 500;
+}
+.teams-content{
+  color:  #727272;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 26px; 
 
+  margin: 24px 0;
+}
+.teams-img-col{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 1.5rem;
+}
 
 /************* Main CSS End*************/
 /************* Footer CSS Start*************/

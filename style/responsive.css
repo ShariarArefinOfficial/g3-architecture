@@ -8,7 +8,16 @@ Developer Name :MD.SHARIAR AREFIN
 
 /************* Tablet Query CSS End*************/
 /************* Mobile Query CSS Start*************/
-
+@media screen and (max-width:576px) {
+    main{
+        margin: 0 auto;
+      }
+    .teams-container{
+        flex-direction: column;
+        
+    }
+    
+}
 
 
 
